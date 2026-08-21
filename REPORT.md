@@ -1,6 +1,7 @@
 # BÁO CÁO KẾT QUẢ BÀI THỰC HÀNH MLOPS CI/CD
 **Học phần**: K3 - CI/CD cho AI Systems: Từ Thí Nghiệm Cục Bộ Đến Triển Khai Liên Tục  
 **Học viên thực hiện**: Hồ Văn Thi  
+**Mã học viên**: 2A202601907  
 **Source code & Pipeline**: [https://github.com/Thimanfer/mlops-lab](https://github.com/Thimanfer/mlops-lab)  
 **Môi trường triển khai**: Google Cloud Platform (GCS & Compute Engine VM)  
 
