@@ -23,11 +23,11 @@ Hệ thống CI/CD được thiết lập với một "Eval Gate" (ngưỡng ch�
 
 | Tiêu chí đánh giá | Phase 1 (2.998 mẫu) | Phase 2 (5.996 mẫu tích lũy) | Mức độ cải thiện |
 |---|:---:|:---:|:---:|
-| **Accuracy (Độ chính xác)** | `0.6840` | **`0.7600`** | 📈 **Tăng +7.60%** |
-| **F1-Score (Weighted)** | `0.6830` | **`0.7580`** | 📈 **Tăng +7.50%** |
+| **Accuracy (Độ chính xác)** | `0.6840` | **`0.7540`** | 📈 **Tăng +7.00%** |
+| **F1-Score (Weighted)** | `0.6830` | **`0.7534`** | 📈 **Tăng +7.04%** |
 | **Hành vi Pipeline CI/CD** | ⛔ *Eval Gate kích hoạt, chặn Deploy* | 🟢 *Vượt qua Eval Gate, Deploy tự động* | Đảm bảo an toàn Production |
 
-**Nhận xét**: Khi em bổ sung thêm 2.998 mẫu từ Phase 2 và đẩy qua DVC, pipeline tự động kích hoạt huấn luyện lại. Dữ liệu dồi dào hơn giúp mô hình nhận diện tốt các mẫu ở phân khúc chất lượng biên, đưa độ chính xác vượt ngưỡng $70\%$ lên $76\%$, đủ điều kiện tự động cập nhật lên VM mà không cần can thiệp thủ công.
+**Nhận xét**: Khi em bổ sung thêm 2.998 mẫu từ Phase 2 và đẩy qua DVC, pipeline tự động kích hoạt huấn luyện lại. Dữ liệu dồi dào hơn giúp mô hình nhận diện tốt các mẫu ở phân khúc chất lượng biên, đưa độ chính xác vượt ngưỡng $70\%$ lên $75.40\%$, đủ điều kiện tự động cập nhật lên VM mà không cần can thiệp thủ công.
 
 ---
 
